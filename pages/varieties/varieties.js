@@ -85,6 +85,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function() {
-
+          return{
+            desc:"来自小怪兽",
+            path:"/pages/splash/splash",
+            imageUrl:"/image/logo.png"
+          }
   }
 })

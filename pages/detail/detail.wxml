@@ -1,2 +1,18 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class='root_view'>
+  <view class='top_view'>
+    <image class='image_style' src='{{detailData.thumbnail}}'></image>
+    <view class='top_left'>
+      <text class="title_text">{{detailData.recipe.title}}</text>
+      <text class="ctg_text">标签：{{detailData.ctgTitles}}</text>
+    </view>
+  </view>
+  <text class="sumary_text" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;{{detailData.recipe.sumary}}</text>
+  <text class="sumary_text" decode="{{true}}" wx:if="{{ingredients!=null}}">配料：&nbsp;&nbsp;{{ingredients}}</text>
+  <view wx:for="{{method}}" wx:key="{{method}}" wx:if="{{method!=null}}" class="step_view" wx:for-index="idx">
+      <view class='top_view'>
+        <image class='image_style' src="{{item.img}}" wx:if="{{item.img!=null}}"></image>
+        <text class="step_text">{{item.step}}</text>
+      </view>
+  </view>
+</view>
