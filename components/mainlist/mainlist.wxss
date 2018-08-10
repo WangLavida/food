@@ -1,0 +1,14 @@
+/* components/main_list/mainlist.wxss */
+
+.item_style {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list_line {
+  height: 1px;
+  width: 100%;
+  background: #eee;
+}

@@ -1,0 +1,12 @@
+<!--pages/child/child.wxml-->
+<block wx:for="{{listData}}" wx:key="{{listData}}" wx:for-index="idx">
+  <view bindtap='clickItem' data-item="{{item}}" class='item_style'>
+    <image style="width:180rpx; height: 100rpx" src='{{item.thumbnail}}'></image>
+    <view class="item_text">
+       <view class="item_title">{{item.name}}</view>
+       <view class="item_title1">{{item.ctgTitles}}</view>
+    </view>
+    
+  </view>
+  <view wx:if="{{idx!=listData.length-1}}" class='list_line'></view>
+</block>

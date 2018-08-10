@@ -1,0 +1,5 @@
+<!--pages/splash/splash.wxml-->
+<view class='container'>
+<image  style="width: 200rpx; height: 200rpx" src='../../image/logo.png'></image>
+<text>欢迎使用</text>
+</view>

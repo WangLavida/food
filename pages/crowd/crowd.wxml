@@ -1,0 +1,4 @@
+<!--pages/crowd/crowd.wxml-->
+<view>
+  <mainlist id="mainlist" listData="{{listData}}" bind:clickItem="clickItem"></mainlist>
+</view>

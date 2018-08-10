@@ -1,0 +1,4 @@
+<!--pages/technology/technology.wxml-->
+<view>
+  <mainlist id="mainlist" listData="{{listData}}" bind:clickItem="clickItem"></mainlist>
+</view>

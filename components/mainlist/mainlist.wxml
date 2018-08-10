@@ -1,0 +1,8 @@
+<!--components/main_list/mainlist.wxml-->
+<block wx:for="{{listData}}" wx:key="{{listData}}" wx:for-index="idx">
+  <view bindtap='clickItem' data-item="{{item}}" class='item_style'>
+    {{item.categoryInfo.name}}
+    <image style="width:60rpx; height: 60rpx" src='../../image/arrow.png'></image>
+  </view>
+  <view wx:if="{{idx!=listData.length-1}}" class='list_line'></view>
+</block>

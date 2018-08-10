@@ -1,0 +1,4 @@
+<!--pages/varieties/varieties.wxml-->
+<view>
+  <mainlist id="mainlist" listData="{{listData}}" bind:clickItem="clickItem"></mainlist>
+</view>

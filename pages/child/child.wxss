@@ -1,0 +1,21 @@
+/* pages/child/child.wxss */
+.item_style{
+  padding:10px;display: flex;flex-direction: row;align-items:center;
+}
+.list_line {
+  height: 1px;
+  width: 100%;
+  background: #eee;
+}
+.item_text{
+  flex-direction: column;
+  margin-left:15rpx;
+}
+.item_title{
+  font-size:10pt;
+}
+.item_title1{
+   margin-top:5rpx;
+  font-size:8pt;
+  color: #888888
+}

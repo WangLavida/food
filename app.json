@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/main/main",
+    "pages/varieties/varieties",
+    "pages/technology/technology",
+    "pages/cuisine/cuisine",
+    "pages/crowd/crowd",
+    "pages/function/function",
+    "pages/child/child",
+    "pages/detail/detail",    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#03A9F4",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/varieties/varieties",
+        "iconPath": "image/varieties.png",
+        "selectedIconPath": "image/varieties_select.png",
+        "text": "菜品"
+      },
+      {
+        "pagePath": "pages/technology/technology",
+        "iconPath": "image/technology.png",
+        "selectedIconPath": "image/technology_select.png",
+        "text": "工艺"
+      },
+      {
+        "pagePath": "pages/cuisine/cuisine",
+        "iconPath": "image/cuisine.png",
+        "selectedIconPath": "image/cuisine_select.png",
+        "text": "菜系"
+      },
+      {
+        "pagePath": "pages/crowd/crowd",
+        "iconPath": "image/crowd.png",
+        "selectedIconPath": "image/crowd_select.png",
+        "text": "人群"
+      },
+      {
+        "pagePath": "pages/function/function",
+        "iconPath": "image/function.png",
+        "selectedIconPath": "image/function_select.png",
+        "text": "功能"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03A9F4",
+    "navigationBarTitleText": "菜谱",
+    "navigationBarTextStyle": "white"
+  }
+}
