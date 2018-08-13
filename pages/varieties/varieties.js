@@ -16,7 +16,7 @@ Page({
         key: "270af719eb517",
         cid: e.detail.categoryInfo.ctgId,
         page:1,
-        size:10
+        size:15
       },
       success: res => {
         console.log(res);
